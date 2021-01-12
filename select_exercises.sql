@@ -39,5 +39,6 @@ where genre like 'Rock';
 select 'albums whose genre includes "Rock"' as '';
 
 select name
+as 'albums whose genre includes "Rock"'
 from albums
-where genre like '%Rock%';
+where genre like '%Rock%' ;

@@ -1,3 +1,5 @@
+use codeup_test_db;
+
 select 'All albums' as '';
 
 update albums

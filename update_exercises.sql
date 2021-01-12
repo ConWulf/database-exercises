@@ -11,7 +11,7 @@ select 'changing All albums released before 1980' as '';
 
 
 update albums
-set release_date = 1800
+set release_date = release_date - 100
 where release_date < 1980;
 
 select name, release_date

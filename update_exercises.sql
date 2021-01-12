@@ -1,13 +1,13 @@
 use codeup_test_db;
 
-select 'All albums' as '';
+select 'changing All albums' as '';
 
 update albums
 set sales = sales * 10;
 
 select * from albums;
 
-select 'All albums released before 1980' as '';
+select 'changing All albums released before 1980' as '';
 
 
 update albums
@@ -18,7 +18,7 @@ select name, release_date
 from albums
 where release_date < 1980;
 
-select 'All albums by Michael Jackson' as '';
+select 'changing All albums by Michael Jackson' as '';
 
 
 update albums

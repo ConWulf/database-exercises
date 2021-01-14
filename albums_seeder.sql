@@ -47,4 +47,9 @@ values ('Fall out boy', 'Save Rock and Roll', 2013, 'rock', 23.1),
         ('Blackpink', 'Blackpink in your area', 2018, 'kpop', 28.4),
         ('P!nk', 'Beautiful trauma', 2017, 'rock, pop', 28.4),
         ('P!nk', 'F**ckin perfect ', 2010, 'rock, pop', 28.4),
-        ('Pentatonix', 'at home', 2020, 'pop, A cappella', 28.4)
+        ('Pentatonix', 'at home', 2020, 'pop, A cappella', 28.4);
+
+alter table albums
+add unique unique_artist_album (artist, name);
+
+select * from albums;
